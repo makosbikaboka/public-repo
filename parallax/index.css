@@ -1,0 +1,35 @@
+.body{}
+
+div.parallax{
+	background-image:url('pin2.png');
+	min-height:1000px;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:200px;
+}
+
+div#span_id{
+	text-align:center;
+}
+
+span#main{
+	font-family: 'Caveat', cursive;
+	font-size: 50px;
+}
+
+div.dream-eater{
+	background-color:transparent;
+}
+
+img.eater{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+p#end{
+	font-family: 'Caveat', cursive;
+	font-size: 50px;
+}

@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.component-container{
+    width: calc(100vw - 30px);
+    max-width: 576px;
+    height: calc(100vh - 50px);
+    max-height: 43.75rem;
+    border-radius: 0.625rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+img{
+    width: 100%;
+    border-radius: 0.82rem 0.82rem 0 0;
+}
+
+
+@media only screen and (min-width: 576px){
+    img{
+        content: url("images/image-product-desktop.jpg");
+        width: 100%;
+        height: 100%;
+        border-radius: 0.82rem 0 0 0.82rem;
+    }   
+}
+
+@media only screen and (min-width: 576px){
+    .component-container{
+        width: 100%;
+        max-width: 37.5rem;
+        height: 28.75rem;
+        display: flex;
+
+    }
+}
+
+@media only screen and (min-width: 576px){
+    .product-description{
+        max-width: 18.75rem;
+        padding: 10px 10px 0 15px;
+    }
+}
+
+.perfume{
+    padding: 1.57rem 1.57rem 1.25rem 0;
+    font-size: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(180, 0%, 50%);
+    letter-spacing: 0.25rem;
+}
+
+.product-description{
+    padding: 0 2.13rem 0 2.19rem;
+    font-size: 1.88rem;
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+}
+
+.product-info{
+    padding: 1.25rem 1.56rem 0.63rem 0;
+    line-height: 1.6;
+    font-size: 0.88rem;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(180, 0%, 50%);
+}
+
+.product-price{
+    display: inline-block;
+    padding: 0.63rem 0.94rem 0.63rem 0;
+}
+
+.lower-price{
+    color: hsl(162, 93%, 28%);
+    font-size: 1.88rem;
+    font-family: 'Fraunces', serif;
+}
+
+@media only screen and (min-width: 576px){
+    .lower-price{
+        padding: 1.56rem 0 1.56rem 0;
+    }
+}
+
+table{
+    margin: 0 2.19rem 0.63rem 0;
+}
+
+td{
+    padding: 0.63rem;
+}
+
+.origin-price{
+    color: hsl(180, 0%, 50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    vertical-align: middle;
+    text-decoration: line-through;
+}
+
+.button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+button{
+    padding: 0.94rem;
+    width: 100%;
+    background-color: hsl(162, 93%, 28%);
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.63rem;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(162, 88%, 16%);;
+}
