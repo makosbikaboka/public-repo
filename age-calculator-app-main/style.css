@@ -28,6 +28,8 @@ main{
 
 .input-box{
     margin: 65px 7.2% 0 7.2%;
+    display: flex;
+    vertical-align: top;
 }
 
 .input-block{
@@ -152,4 +154,14 @@ button img{
 .attribution{
     position: absolute;
     bottom: 0;
+}
+
+#error_message_d, #error_message_m, #error_message_y{
+    color: hsl(0, 100%, 67%);
+    font-size: 0.62rem;
+    padding: 0.62rem 0 0 0;
+}
+
+input.error {
+    border-color: hsl(0, 100%, 67%);
 }

@@ -28,16 +28,19 @@
     <article class="container">
         <div class="input-box">
           <div class="input-block">
-            <p class="input-block-title">DAY</p>
+            <p class="input-block-title" id="p1">DAY</p>
             <input type="number" id="day" name="day" placeholder="DD" required="required" minlength="1" maxlength="2">
+            <p id="error_message_d"></p>
           </div>  
           <div class="input-block" id="input-block-month">
             <p class="input-block-title">MONTH</p>
             <input type="number" id="month" name="month" placeholder="MM" required="required" minlength="1" maxlength="2">
+            <p id="error_message_m"></p>
           </div>
           <div class="input-block">
             <p class="input-block-title">YEAR</p>
             <input type="number" id="year" name="year" placeholder="YYYY" required="required" minlength="4" maxlength="4">
+            <p id="error_message_y"></p>
           </div>
         </div>
         <div class="arrow-container">
