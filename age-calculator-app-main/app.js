@@ -49,7 +49,7 @@ function age() {
   messageM.innerHTML = "";
   messageY.innerHTML = "";
 
-  if(d1 > month2){
+  if(d1 > month2[m1]){
     messageD.innerHTML = "Must be a valid day";
     dayInput.classList.add('error');
     collection[0].style.color = 'hsl(0, 100%, 67%)';

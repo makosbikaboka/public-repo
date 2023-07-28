@@ -166,11 +166,6 @@ button img{
     color: hsl(259, 100%, 65%);
 } 
 
-.attribution{
-    position: absolute;
-    bottom: 0;
-}
-
 #error_message_d, #error_message_m, #error_message_y{
     color: hsl(0, 100%, 67%);
     font-size: 0.62rem;
@@ -179,4 +174,22 @@ button img{
 
 input.error {
     border-color: hsl(0, 100%, 67%);
+}
+
+.attribution {
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(218, 44%, 22%);
+    width: 100vw;
+    padding: 0.2rem;
+    position:fixed;
+    bottom:0;
+    margin:0;
+}
+
+.attribution a {
+    color: hsl(0, 0%, 100%)!important;
+}
+
+.attribution a:hover {
+    text-decoration: none;
 }
